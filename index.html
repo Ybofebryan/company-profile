@@ -4,64 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amarta Bangun Indonesia</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Aplikasi Manajemen Donasi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">DonasiWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white">
         <div class="container">
-            <h1>Amarta Bangun Indonesia</h1>
-            <p>Slogan atau Motto Perusahaan</p>
+            <h1>Selamat Datang di Aplikasi Manajemen Donasi</h1>
+            <p class="lead">Solusi mudah untuk mengelola donasi Anda secara efektif dan efisien.</p>
+            <a href="#about" class="btn btn-primary">Pelajari Lebih Lanjut</a>
         </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#tentang-kami">Tentang Kami</a></li>
-            <li><a href="#layanan">Layanan</a></li>
-            <li><a href="#tim">Tim Kami</a></li>
-            <li><a href="#kontak">Kontak</a></li>
-        </ul>
-    </nav>
-
-    <section id="tentang-kami">
+    <!-- About Section -->
+    <section id="about" class="py-5">
         <div class="container">
-            <h2>Tentang Kami</h2>
-            <p>Deskripsi singkat tentang perusahaan Anda, visi, misi, dan sejarah perusahaan.</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Tentang Kami</h2>
+                    <p>Aplikasi Manajemen Donasi Berbasis Web dirancang untuk memudahkan organisasi dan individu dalam mengelola donasi mereka. Dengan fitur-fitur yang mudah digunakan, kami membantu memastikan bahwa setiap donasi dapat disalurkan kepada yang membutuhkan dengan transparansi dan akurasi.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/about.jpg" class="img-fluid" alt="Tentang Kami">
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="layanan">
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
         <div class="container">
-            <h2>Layanan Kami</h2>
-            <ul>
-                <li>Layanan 1</li>
-                <li>Layanan 2</li>
-                <li>Layanan 3</li>
-            </ul>
+            <h2 class="text-center">Hubungi Kami</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Nama</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nama Anda">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email Anda">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda di sini"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
         </div>
     </section>
 
-    <section id="tim">
-        <div class="container">
-            <h2>Tim Kami</h2>
-            <p>Perkenalkan tim utama yang bekerja di perusahaan Anda.</p>
-        </div>
-    </section>
-
-    <section id="kontak">
-        <div class="container">
-            <h2>Kontak Kami</h2>
-            <p>Alamat: Jalan Contoh No. 123, Jakarta</p>
-            <p>Email: info@perusahaan.com</p>
-            <p>Telepon: +62 123 4567 890</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 ybo company. Semua Hak Dilindungi.</p>
-        </div>
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 DonasiWeb. Semua Hak Dilindungi.</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
