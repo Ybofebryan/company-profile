@@ -1,84 +1,161 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplikasi Manajemen Donasi</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Company Profile - Penyewaan Barang dan Jasa</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">DonasiWeb</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" href="#">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-section text-center text-white">
-        <div class="container">
-            <h1>Selamat Datang di Aplikasi Manajemen Donasi</h1>
-            <p class="lead">Solusi mudah untuk mengelola donasi Anda secara efektif dan efisien.</p>
-            <a href="#about" class="btn btn-primary">Pelajari Lebih Lanjut</a>
-        </div>
-    </header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">PenyewaanKu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Layanan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">Galeri</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Tentang Kami</h2>
-                    <p>Aplikasi Manajemen Donasi Berbasis Web dirancang untuk memudahkan organisasi dan individu dalam mengelola donasi mereka. Dengan fitur-fitur yang mudah digunakan, kami membantu memastikan bahwa setiap donasi dapat disalurkan kepada yang membutuhkan dengan transparansi dan akurasi.</p>
+<!-- Beranda Section -->
+<section id="home" class="jumbotron text-center bg-primary text-white">
+    <div class="container">
+        <h1 class="display-4">Selamat Datang di PenyewaanKu</h1>
+        <p class="lead">Solusi terbaik untuk semua kebutuhan penyewaan barang dan jasa Anda.</p>
+        <a href="#about" class="btn btn-light btn-lg">Pelajari Lebih Lanjut</a>
+    </div>
+</section>
+
+<!-- Tentang Kami Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tentang Kami</h2>
+                <p>PenyewaanKu adalah perusahaan yang menyediakan layanan penyewaan barang dan jasa dengan beragam pilihan yang sesuai dengan kebutuhan Anda. Kami berdedikasi untuk memberikan pelayanan terbaik dan berkualitas tinggi kepada setiap pelanggan kami.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/500" class="img-fluid" alt="Tentang Kami">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Layanan Section -->
+<section id="services" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Layanan Kami</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Penyewaan Alat Elektronik</h5>
+                        <p class="card-text">Menyediakan berbagai alat elektronik seperti kamera, laptop, proyektor, dan lainnya untuk kebutuhan Anda.</p>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="images/about.jpg" class="img-fluid" alt="Tentang Kami">
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Penyewaan Kendaraan</h5>
+                        <p class="card-text">Layanan penyewaan mobil, motor, dan kendaraan lain dengan harga terjangkau dan kualitas terbaik.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Jasa Acara & Event Organizer</h5>
+                        <p class="card-text">Kami juga menyediakan jasa untuk mengatur acara, mulai dari pesta, pertemuan bisnis, hingga event besar lainnya.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Hubungi Kami</h2>
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="name">Nama</label>
+<!-- Galeri Section -->
+<section id="gallery" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Galeri</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/350" class="img-fluid" alt="Galeri 1">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/350" class="img-fluid" alt="Galeri 2">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://via.placeholder.com/350" class="img-fluid" alt="Galeri 3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kontak Section -->
+<section id="contact" class="bg-primary text-white py-5">
+    <div class="container">
+        <h2 class="text-center">Kontak Kami</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Alamat:</h5>
+                <p>Jl. Raya Penyewaan No. 123, Jakarta, Indonesia</p>
+                <h5>Email:</h5>
+                <p>info@penyewaanku.com</p>
+                <h5>Telepon:</h5>
+                <p>(021) 123-4567</p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
                         <input type="text" class="form-control" id="name" placeholder="Nama Anda">
                     </div>
-                    <div class="form-group col-md-6">
-                        <label for="email">Email</label>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email" placeholder="Email Anda">
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="message">Pesan</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda di sini"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Kirim</button>
-            </form>
+                    <div class="form-group">
+                        <label for="message">Pesan:</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light">Kirim</button>
+                </form>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>&copy; 2024 DonasiWeb. Semua Hak Dilindungi.</p>
-    </footer>
+<!-- Footer -->
+<footer class="text-center py-3">
+    <p>&copy; 2024 PenyewaanKu. All rights reserved.</p>
+</footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
