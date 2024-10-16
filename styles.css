@@ -1,18 +1,65 @@
-/* styles.css */
-.hero-section {
-    background: url('../images/hero-background.jpg') no-repeat center center/cover;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
 }
 
-.hero-section h1 {
-    font-size: 3rem;
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
     font-weight: bold;
+    color: #007bff !important;
 }
 
-.hero-section p {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
+.navbar-nav .nav-item .nav-link {
+    color: #333 !important;
+    transition: color 0.3s;
 }
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Jumbotron (Beranda Section) */
+#home {
+    background-image: url('https://via.placeholder.com/1920x600'); /* Ganti dengan URL gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#home .btn-light {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#home .btn-light:hover {
+    background-color: #0056b3;
+}
+
+/* Tentang Kami Section */
+#about h2 {
+    color: #007bff;
+}
+
+#about img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Layanan Section */
+#services {
+    background-color: #f8f9fa;
+}
+
+#services h2 {
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+#services .card {
+    transition: transform 0.3s, box-shadow 0.
