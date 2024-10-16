@@ -52,14 +52,15 @@ body {
 }
 
 /* Layanan Section */
-#services {
-    background-color: #f8f9fa;
-}
-
 #services h2 {
     margin-bottom: 30px;
     color: #007bff;
 }
 
 #services .card {
-    transition: transform 0.3s, box-shadow 0.
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#services .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 
